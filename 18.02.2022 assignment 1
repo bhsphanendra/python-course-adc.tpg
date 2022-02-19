@@ -1,0 +1,39 @@
+write a program to print count of n prime numbers
+
+numr=int(input("Enter range:"))
+print('prime numbers:',end=' \n')
+count=0
+
+for n in range(1,numr):
+
+    for i in range(2,n):
+
+        if(n%i==0):
+
+            break
+
+    else:
+        count=count+1
+        print(n,end=' \n')
+
+        
+        
+     
+print('prime number count:\n',count)
+
+output :
+Enter range:20
+prime numbers:
+1
+2
+3
+5
+7
+11
+13
+17
+19
+prime number count:
+ 9
+
+        
