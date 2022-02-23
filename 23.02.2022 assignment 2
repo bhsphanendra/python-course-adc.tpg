@@ -1,0 +1,20 @@
+write a program to print reverse number of the list
+a=[]
+n=int(input('Enter n:'))
+for i in  range(n):
+    d=int(input())
+    a.append(d)
+print('mylist before reverse:',a)
+a2=a
+a2.reverse()
+print('mylist after reverse',a2)
+
+output:
+Enter n:5
+25
+36
+32
+56
+53
+mylist before reverse: [25, 36, 32, 56, 53]
+mylist after reverse [53, 56, 32, 36, 25]
