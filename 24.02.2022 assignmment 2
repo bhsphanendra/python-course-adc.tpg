@@ -1,0 +1,17 @@
+write a program to separate odd and even numbera in given list
+
+x=input()
+l=x.split()
+o=[]
+e=[]
+for i in l:
+    i=int(i)
+    if i%2==0:
+        e.append(i)
+    else:
+        o.append(i)
+print(o,' ',e)
+
+output:
+3 2 1 5 4
+[3, 1, 5]   [2, 4]
