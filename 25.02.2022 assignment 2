@@ -1,0 +1,30 @@
+write a python program to remove zero elements from the list and find the total count of non zero elements and dipaly them
+
+n=int(input())
+l=[]
+t=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+x=0
+c=0
+for i in range(n):
+    if l[i]>0:
+        c=c+1
+        t.append(l[i])
+    x+=1
+   
+for i in range(x,n):
+    t.append(x)
+print(t)
+print(c)
+
+output:
+4
+1
+0
+2
+0
+[1, 2]
+2
+
