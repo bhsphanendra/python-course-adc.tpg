@@ -1,0 +1,18 @@
+write a program to print the second runner up score
+
+n=int(input())
+l=input().split()
+t=[]
+for i  in l:
+   t.append(int(i))
+x=[]
+for i in t:
+   if i not in x:
+     x.append(i)
+x.sort(reverse=True)
+print(x[2])
+
+output: 
+5
+3 4 6 2 8
+4
