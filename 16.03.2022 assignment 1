@@ -1,0 +1,15 @@
+write a program to remove duplicate
+
+ds=input()
+l=list(ds)
+x=[]
+res=[]
+for i in l:
+    x.append(i)
+    if i not in res:
+        res.append(i)
+print(res,end=' ')
+
+output:
+a a a b b b b c c c
+a b c
